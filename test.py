@@ -13,6 +13,7 @@ all_h = driver.window_handles
 print(all_h)     # 打印所有的句柄
 time.sleep(2)
 
+
 # 方法一：判断句柄，不等于首页就切换
 
 # for i in all_h:                       # 这里不建议用for循环了，很多小伙伴懵的
